@@ -54,7 +54,7 @@ if [ $? != 0 ] && [ $installFor = "steamcmd" ]; then
 fi
 
 echo "Installing with pacman (expect a sudo prompt)"
-sudo pacman -Syu dhcpcd dhcp efibootmgr fakeroot grub htop neovim net-tools openssh sudo xdg-user-dirs screen cronie git vi
+sudo pacman -Syu dhcpcd dhcp efibootmgr fakeroot grub htop neovim net-tools openssh sudo xdg-user-dirs screen cronie git vi debugedit
 
 [ $installFor = "sans-steamcmd" ] && exit
 
